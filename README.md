@@ -96,8 +96,7 @@ Visit `http://localhost:5173` (or the port shown in your terminal).
 
 ## ✅ Prerequisites
 
-- Node.js and npm installed on your system
-- Internet connection to install dependencies
+- Node.js and npm installed on your system.
 
 ---
 
@@ -110,7 +109,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 ```
 
-- Bootstrap is used via npm installation, no CDN needed.
+- Bootstrap is used via npm installation, CDN is there in index.html inside <head></head>.
 - Icons like `faSignal`, `faDownload`, `faUpload` are from `@fortawesome/free-solid-svg-icons`.
 
 ---
