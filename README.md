@@ -24,6 +24,7 @@ This is a React-based frontend project built using **Vite**, styled with **CSS**
   - Inside each component folder, there's a `.jsx` and a `.css` file, such as `Header.jsx` and `Header.css`.
   - This helps isolate concerns and makes debugging or updates easy in the future.
 - Pages are structured in a `pages/` folder, where each page has its own folder.
+- **Mock data** was used to simulate API data responses for UI display. A `utils/` folder was created containing a `MockData.js` file with an array of objects. This array was looped using `.map()` to dynamically render UI elements. This makes the app more modular and scalable for future integration with real APIs.
 - Font Awesome is used for icons like `faPlus`, `faSignal`, `faUpload`, etc., imported properly from `@fortawesome` packages.
 - Bootstrap is selectively used to help with layout and spacing for quicker UI building.
 
@@ -50,6 +51,9 @@ src/
 │   └── Home/
 │       ├── Home.jsx
 │       └── Home.css
+│
+├── utils/
+│   └── MockData.js
 │
 ├── App.jsx
 └── main.jsx
