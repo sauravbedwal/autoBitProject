@@ -36,21 +36,20 @@ This is a React-based frontend project built using **Vite**, styled with **CSS**
 src/
 │
 ├── components/
-│   ├── Header/
+│   ├── header/
 │   │   ├── Header.jsx
 │   │   └── Header.css
-│   ├── Footer/
+│   ├── footer/
 │   │   ├── Footer.jsx
 │   │   └── Footer.css
-│   ├── SearchBar/
+│   ├── searchBar/
 │   │   ├── SearchBar.jsx
 │   │   └── SearchBar.css
 │   └── ... (other reusable components)
 │
 ├── pages/
-│   └── Home/
-│       ├── Home.jsx
-│       └── Home.css
+│   └── dataPage/
+│       └── DataPage.jsx
 │
 ├── utils/
 │   └── MockData.js
