@@ -9,7 +9,7 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <>
-      <nav className="navbar bg-body-tertiary" style={{ width: "30vw" }}>
+      <nav className="navbar bg-body-tertiary header-container">
         <div className="container-fluid">
           <img src={burgerMenu} width="40px" height="30px" />
           <a className="navbar-brand header-heading" href="#">
@@ -24,26 +24,6 @@ const Header = () => {
         <p className="header-info">
           Public News: For Support, Call +91 8918085080 ( Whatsapp Only )
         </p>
-        {/* scriptbuttons */}
-        {/* <div className="background-container">
-          <div className="icon-text-script">
-            <div className="plus-background">
-              <FontAwesomeIcon icon={faPlus} />
-            </div>
-            <div className="plus-text">
-              <span>Press and hold to select</span>
-              <span className="script-text">script</span>
-            </div>
-
-            <div className="plus-background">
-              <FontAwesomeIcon icon={faPlus} />
-            </div>
-            <div className="plus-text2">
-              <span>Press and hold to select</span>
-              <span>script</span>
-            </div>
-          </div>
-        </div> */}
       </nav>
     </>
   );

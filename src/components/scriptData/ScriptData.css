@@ -53,3 +53,55 @@
   color: black;
   padding: 2px 0 4px 0;
 }
+
+.bid-main {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bid-large {
+  font-size: 40px;
+}
+
+.bid-small {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .bid-main {
+    font-size: 18px;
+  }
+
+  .bid-large {
+    font-size: 30px;
+  }
+
+  .bid-small {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bid-main {
+    font-size: 13px;
+  }
+
+  .bid-large {
+    font-size: 18px;
+  }
+
+  .bid-small {
+    font-size: 11px;
+  }
+
+  .script-name{
+    font-size: 16px;
+  }
+  .graph{
+    font-size: 11px;
+  }
+  .footer-icon-text{
+    font-size: 12px;
+  }
+}
+

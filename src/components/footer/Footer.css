@@ -24,3 +24,9 @@
     color: rgb(239, 44, 119);
     font-weight: 600;
 }
+
+@media screen and (max-width: 400px) {
+  .footer-icon-text{
+    font-size: 11px;
+  }
+}

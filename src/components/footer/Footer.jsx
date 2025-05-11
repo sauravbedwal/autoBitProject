@@ -9,7 +9,7 @@ import { faClockRotateLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="background-container-footer" style={{ width: "30vw" }}>
+    <div className="background-container-footer">
       <div className="footer-icon-text">
         <span>
           <FontAwesomeIcon icon={faArrowUp} />

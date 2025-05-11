@@ -16,10 +16,11 @@
 }
 
 .icon-text-script {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .plus-text {
@@ -28,7 +29,6 @@
   align-items: center;
   text-align: center;
   padding: 10px 15px 10px 0;
-  border-right: 2px solid black !important;
 }
 
 .plus-text2 {
@@ -41,4 +41,12 @@
 
 .icon-text-script:last-child .plus-text {
   border-right: none;
+}
+
+.script-btn-icon-text {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  gap: 20%;
+
 }

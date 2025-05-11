@@ -9,10 +9,7 @@ import { scriptDataArray } from "../../utils/mockData/MockData";
 
 const ScriptData = () => {
   return (
-    <div
-      className="bg-body-tertiary scriptData-container"
-      style={{ width: "30vw" }}
-    >
+    <div className="bg-body-tertiary scriptData-container">
       <div className="bg-script">
         <p style={{ fontWeight: "500" }}>Script</p>
         <div className="bid-ask-container">
@@ -46,13 +43,12 @@ const ScriptData = () => {
                 style={{
                   textAlign: "right",
                   color: data.bid.color,
-                  fontSize: "22px",
-                  fontWeight: "700",
                 }}
+                className="bid-main"
               >
                 {data.bid.main}.
-                <span style={{ fontSize: "40px" }}>{data.bid.large}</span>
-                <span style={{ fontSize: "18px" }}>{data.bid.small}</span>
+                <span className="bid-large">{data.bid.large}</span>
+                <span className="bid-small">{data.bid.small}</span>
               </p>
               <p className="graph" style={{ textAlign: "right" }}>
                 <FontAwesomeIcon icon={faDownload} /> {data.bid.download}
@@ -68,13 +64,12 @@ const ScriptData = () => {
                 style={{
                   textAlign: "right",
                   color: data.ask.color,
-                  fontSize: "22px",
-                  fontWeight: "700",
                 }}
+                className="bid-main"
               >
                 {data.ask.main}.
-                <span style={{ fontSize: "40px" }}>{data.ask.large}</span>
-                <span style={{ fontSize: "18px" }}>{data.ask.small}</span>
+                <span className="bid-large">{data.ask.large}</span>
+                <span className="bid-small">{data.ask.small}</span>
               </p>
               <p className="graph" style={{ textAlign: "right" }}>
                 <FontAwesomeIcon icon={faUpload} /> {data.ask.upload}

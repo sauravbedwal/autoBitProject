@@ -3,10 +3,7 @@ import "./ToggleButton.css";
 
 const ToggleButton = () => {
   return (
-    <div
-      className="bg-body-tertiary toggle-container"
-      style={{ width: "30vw" }}
-    >
+    <div className="bg-body-tertiary toggle-container">
       <div className="toggle-btn">
         <div class="check">
           <input id="check" type="checkbox" />
