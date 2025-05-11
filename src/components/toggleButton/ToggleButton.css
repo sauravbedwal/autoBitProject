@@ -120,4 +120,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .btn-name-toggle{
+    font-size: 13px;
+  }
 }

@@ -9,11 +9,11 @@ const ToggleButton = () => {
           <input id="check" type="checkbox" />
           <label for="check"></label>
         </div>
-        <p>Pro View</p>
+        <p className="btn-name-toggle">Pro View</p>
       </div>
 
       <div className="toggle-btn">
-        <p>One Click Trade</p>
+        <p className="btn-name-toggle">One Click Trade</p>
         <div class="check">
           <input id="check1" type="checkbox" />
           <label for="check1"></label>
