@@ -116,12 +116,50 @@
 
 @media screen and (max-width: 406px) {
   .toggle-container {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
-  .btn-name-toggle{
+  .btn-name-toggle {
     font-size: 13px;
+  }
+
+  .check label {
+    width: 1.8em; 
+    height: 0.9em;
+  }
+
+  .check input[type="checkbox"] {
+    width: 0.7em;
+    height: 0.7em;
+    top: 0.1em;
+    left: 0.1em;
+  }
+
+  .check input[type="checkbox"]:checked {
+    left: 1em;
+  }
+
+  .check label::before,
+  .check label::after {
+    font-size: 0.5em;
+    left: 0.4em;
+    top: 0.4em;
+  }
+
+  .check label::after {
+    top: 0.55em;
+    left: 0.5em;
+    font-size: 0.18em;
+  }
+
+  .check input[type="checkbox"]:checked + label::before,
+  .check input[type="checkbox"]:checked + label::after {
+    left: 2.1em;
+  }
+
+  .check input[type="checkbox"]:checked + label::after {
+    top: 0.5em;
+    left: 2.15em;
+    font-size: 0.5em;
   }
 }
